@@ -1,0 +1,17 @@
+{
+  "name": "prime-numbers-mult",
+  "scripts": {
+    "test": "mocha 'test/**/*.js'",
+    "test:watch": "npm run test -- --watch"
+  },
+  "author": "Chris Rinaldi <cgrinaldi@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cgrinaldi/prime-numbers-multiplication/issues"
+  },
+  "homepage": "https://github.com/cgrinaldi/prime-numbers-multiplication",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.4.1"
+  }
+}
