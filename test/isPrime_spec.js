@@ -24,8 +24,8 @@ describe('isPrime()', () => {
     expect(isPrime(46)).to.equal(false);
   });
 
-  xit('should be able to handle large input values', () => {
-    expect(isPrime(50000)).to.equal(false);
+  it('should be able to handle large input values', () => {
+    expect(isPrime(500000)).to.equal(false);
   });
 
 });

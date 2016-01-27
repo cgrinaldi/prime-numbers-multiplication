@@ -26,7 +26,7 @@ describe('generatePrimeNumbers()', () => {
   });
 
   it('should be able to handle large input values', () => {
-    expect(generatePrimeNumbers(100)).to.have.length(100);
+    expect(generatePrimeNumbers(500)).to.have.length(500);
   });
 
 });
