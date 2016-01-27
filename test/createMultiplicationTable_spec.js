@@ -18,19 +18,19 @@ describe('createMultiplicationTable()', () => {
     expect(resultMatrix[0]).to.be.an('array');
   });
 
-  it('should have the same number of rows as number of values passed \
+  it('should have 1 more row than the number of row values passed \
       into the rowNums array', () => {
-    expect(resultMatrix).to.have.length(4);
+    expect(resultMatrix).to.have.length(rowNums.length + 1);
   });
 
-  it('should have the same number of columns as the number of values passed \
+  it('should have 1 more column than the number of col values passed \
       into the colNums array', () => {
-    expect(resultMatrix[0]).to.have.length(3);
+    expect(resultMatrix[0]).to.have.length(colNums.length + 1);
   });
 
-  it('should have the product of rowNums[i] and colNums[j] in result[i][j]', () => {
-    expect(resultMatrix[2][2]).to.equal(24);
-    expect(resultMatrix[0][1]).to.equal(6);
+  it('should have the product of rowNums[i] and colNums[j] in result[i+1][j+1]', () => {
+    expect(resultMatrix[2+1][2+1]).to.equal(24);
+    expect(resultMatrix[0+1][1+1]).to.equal(6);
   });
 
 });
