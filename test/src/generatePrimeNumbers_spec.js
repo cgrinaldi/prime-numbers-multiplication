@@ -1,5 +1,5 @@
 var expect = require('chai').expect;
-var generatePrimeNumbers = require('../generatePrimeNumbers.js');
+var generatePrimeNumbers = require('../../src/generatePrimeNumbers.js');
 
 describe('generatePrimeNumbers()', () => {
 

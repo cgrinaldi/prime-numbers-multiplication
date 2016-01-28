@@ -1,5 +1,5 @@
 var expect = require('chai').expect;
-var createMultiplicationTable = require('../createMultiplicationTable.js');
+var createMultiplicationTable = require('../../src/createMultiplicationTable.js');
 
 describe('createMultiplicationTable()', () => {
   var rowNums = [3,4,8,10];
