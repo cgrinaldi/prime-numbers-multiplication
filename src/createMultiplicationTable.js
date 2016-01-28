@@ -1,3 +1,9 @@
+// createMutliplicationTable takes the row number and column numbers
+// and returns an array of arrays that includes the row numbers, column numbers,
+// and their prodcuts.
+
+// input: rowNums (array), colNums(array)
+// output: multiplication table (array of arrays);
 function createMultiplicationTable(rowNums, colNums) {
   var result = [];
 

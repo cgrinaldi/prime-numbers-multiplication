@@ -1,7 +1,7 @@
 var padNumber = require('./padNumber.js');
 
-// Function takes an array of arrays and prints to screen
-// Input: table - array of arrays
+// printTable takes a table (array of arrays) and prints to screen
+// Input: table (array of arrays)
 // Output: logs table to console
 function printTable(table) {
   if (!Array.isArray(table) || !Array.isArray(table[0])) {

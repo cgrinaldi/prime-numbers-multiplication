@@ -1,6 +1,7 @@
-// generatePrimeNumbers return an array of the first n prime numbers
-// input: n, integer
-// output: array of prime numbers
+// generatePrimeNumbers returns an array of the first n prime numbers
+
+// input: n (integer),
+// output: prime numbers (array)
 function generatePrimeNumbers(n) {
   // Error checking
   if (typeof n !== 'number' || n % 1 !== 0) {
