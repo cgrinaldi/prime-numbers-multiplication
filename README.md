@@ -9,3 +9,10 @@ Write a program that prints out a multiplication table of the first 10 prime num
 - Consider cases where we want N primes.
 - Do not use the Prime class from stdlib (write your own code).
 - Write tests. Try to demonstrate TDD/BDD.
+
+## Instructions
+
+1. Clone repo onto local machine
+2. `npm install` to install dependencies
+3. `npm run test` to run associated tests
+4. `node printPrimeNumberMultTable.js` or `node printPrimeNumberMultTable.js N` where N is an integer that says how many prime numbers you want to use in the multiplication table 
